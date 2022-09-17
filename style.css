@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Poppins:wght@200;500;900&family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #6495ed 27.26%, #fff8dc 96.03%);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px #f0ffff;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+  
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  padding: 32px;
+  background: linear-gradient(286.5deg, #add8e6 20.49%, #f0ffff 78.19%);
+  box-shadow: 0px 5px 10px #f0ffff;
+  border-radius: 20px;
+}
+
+.projetos ul {
+  list-style: none;
+  font-weight:700;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 36px;
+  color: #1c1c1c;
+  color: text-shadow: 0px 5px 10px #fff5ee;
+}
+
+.conquistas {
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 32px;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.conquistas ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.conquistas li {
+  list-style-type: none;
+}
+
+.conquistas img {
+  max-height: 100px
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.projeto:hover{
+  background: #48d1cc;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 22px;
+  padding: 8px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px; 
+  }
+
+.contato h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.contato img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button{
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #f7f7f7;
+}
